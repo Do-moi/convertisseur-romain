@@ -15,7 +15,7 @@ router.get("/", function (req, res, next) {
     msgError,
   });
 });
-// ========/test ===========
+// ========/test ====================
 router.get("/test", function (req, res, next) {
   let numbSent = Number(req.query.number);
   let error;
